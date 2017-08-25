@@ -1,0 +1,6 @@
+framework module Pods_TKSecureModule_Tests {
+  umbrella header "Pods-TKSecureModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

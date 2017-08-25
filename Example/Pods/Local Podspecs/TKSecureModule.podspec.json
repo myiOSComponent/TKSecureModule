@@ -1,0 +1,22 @@
+{
+  "name": "TKSecureModule",
+  "version": "0.1.0",
+  "summary": "A short description of TKSecureModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/512869343@qq.com/TKSecureModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "512869343@qq.com": "512869343@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/512869343@qq.com/TKSecureModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TKSecureModule/Classes/**/*"
+}
