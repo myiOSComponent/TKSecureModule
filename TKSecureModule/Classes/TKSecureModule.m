@@ -249,7 +249,7 @@ static const int32_t kTypeOfWrapPadding = kSecPaddingPKCS1;
     
     // 从 PKCS #12 证书中提取标示和证书
     SecIdentityRef myIdentity = NULL;
-    SecTrustRef myTrust;
+    SecTrustRef myTrust = NULL;
     const void *keys[] = {kSecImportExportPassphrase};
     const void *values[] = {passwordRef};
     CFDictionaryRef optionsDictionary = CFDictionaryCreate(NULL, keys, values, 1, NULL, NULL);
